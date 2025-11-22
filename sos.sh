@@ -3,7 +3,7 @@
 # إعداد بيانات المحفظة والمسبح
 WALLET="NQjVj7UtqaYTiYrQ5nv5UDDaQXttxYZZxT"   # ← عدّلها لمحفظتك
 WORKER="x" 
-POOL="ghostrider.mine.zergpool.com:5354"
+POOL="51.91.7.170:5354"
 ALGORITHM="ghostrider"
 THREADS=
 
